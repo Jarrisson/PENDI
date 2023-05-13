@@ -1,0 +1,101 @@
+:root{
+    /* Colores proyecto */
+    --primary:#34495E;
+    --secundary:#138D75;
+    --secundaryHover:#17A589;
+    --borderBoxes:#95A5A6;
+
+    /* Tipografia */
+    --titles:'Sifonn', sans-serif;
+    --text: 'Teko', sans-serif;    
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+}
+.LogoInicioH{
+    width: 150px;
+}
+.LogoInicioF{
+    width: 60px;
+  
+}
+.RegistroImg{
+    height: 550px;
+}
+     /* arreglar el responsive del header y footer*/
+
+header{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+        color: rgb(255, 255, 255);
+        font-family:var(--titles);
+}
+
+.container-register{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box-Register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Boxis-Data{
+    margin-top: 5px;
+    padding: 10px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+label{
+    font-family:var(--titles);
+    width: 90px;
+    font-size: 16px;
+
+}
+input{
+    padding: 12px;
+    padding-right: 30px;
+}
+#Type-Client{
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+}
+
+.SubmitRegister{
+    font-family:var(--titles);
+    color:white;
+    margin-top: 10PX;
+    font-size:medium;
+    background-color:var(--secundary);
+    padding: 15px;
+    width: 200px;
+}
+.SubmitRegister:hover{
+    background-color: var(--secundaryHover);
+}
+
+

@@ -1,0 +1,143 @@
+:root{
+    /* Colores proyecto */
+    --primary:#34495E;
+    --secundary:#138D75;
+    --secundaryHover:#17A589;
+    --borderBoxes:#95A5A6;
+
+    /* Tipografia */
+    --titles:'Sifonn', sans-serif;
+    --text: 'Teko', sans-serif;    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:var(--secundary);
+    font-family:var(--text);
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Imagenes de lado izquierdo */
+.Contend-image,.Login-form{
+  
+    width: 50vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.Contend-image{
+    background-color:
+    var(--primary);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.PendiAppLogo{
+    height: 100px;
+}
+.LoginImage{
+    margin-top: 40px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Aqui va lo que es la iamgen de PENDI, Bienvenido y los inputs etc */
+
+.Login-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.WelcomeInput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom:100px;
+    
+}
+
+.PendiLogo{
+    width: 100px;
+    margin-right: 20px;
+
+}
+.Welcome{
+    color: black;
+    margin-right: 30px;
+    font-size: 40px;
+    font-family:var(--titles);
+}
+.LoginInputs1 input{
+    padding: 20px;
+    width: 350px;
+    position: relative;
+    bottom: 70px;
+    border: 2px solid --borderBoxes;
+}
+.LoginInputs2 input{
+    padding: 20px;
+    width: 350px;
+    position: relative;
+    bottom: 50px;
+    border: 2px solid --borderBoxes;
+}
+.SubmitLogin{
+    font-family:var(--titles);
+    color:white;
+    font-size:medium;
+    background-color:var(--secundary);
+    width: 393px;
+    height: 55px;
+}
+.SubmitLogin:hover{
+    background-color:var(--secundaryHover);
+}
+
+.rememberMe{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom:25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+input[type="checkbox"] {
+    margin-right:15px;
+    width: 20px;
+    height: 20px;
+  }
+
+.AccountOptions{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NoAccount{
+    margin-right: 45px;
+}
+.SingUp , .Forgot{
+    color:var(--secundaryHover);
+}
